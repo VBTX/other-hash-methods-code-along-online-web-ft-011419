@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_min(groceries)
   groceries.each do |key, value|
-    return key.min
+    return value.min
   end
 end
